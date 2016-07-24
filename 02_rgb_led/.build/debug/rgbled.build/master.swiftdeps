@@ -1,0 +1,5 @@
+version: "Swift version 3.0-dev (LLVM dd9a2a1e10, Clang f8606ef4b8, Swift eb27bb65a7)"
+options: "b58215fb6df11d7be46200e67c0aab08"
+build_time: [522634178, 653835000]
+inputs:
+  "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/Sources/main.swift": [522634177, 0]

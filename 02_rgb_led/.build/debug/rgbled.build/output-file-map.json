@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/rgbled.build/master.swiftdeps"
+  },
+  "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/Sources/main.swift": {
+    "dependencies": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/rgbled.build/main.d",
+    "object": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/rgbled.build/main.swift.o",
+    "swiftmodule": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/rgbled.build/main~partial.swiftmodule",
+    "swift-dependencies": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/rgbled.build/main.swiftdeps"
+  }
+}

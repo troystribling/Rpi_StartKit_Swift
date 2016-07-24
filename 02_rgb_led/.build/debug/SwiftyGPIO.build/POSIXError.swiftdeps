@@ -1,0 +1,72 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "POSIXError"
+provides-nominal:
+- "O10SwiftyGPIO10POSIXError"
+provides-member:
+- ["O10SwiftyGPIO10POSIXError", ""]
+- ["O10SwiftyGPIO10POSIXError", "fromErrorNumber"]
+depends-top-level:
+- "POSIXError"
+- !private "errno"
+- "Error"
+- !private "IntegerLiteralType"
+- !private "FloatLiteralType"
+- "RawRepresentable"
+- "CInt"
+depends-member:
+- ["Ps5Error", "RawValue"]
+- ["Ps5Error", "Value"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_userInfo"]
+- !private ["Ps5Error", "errno"]
+- ["Ps5Error", "init"]
+- ["Ps5Error", "rawValue"]
+- ["Ps5Error", ""]
+- ["O10SwiftyGPIO10POSIXError", "CInt"]
+- ["O10SwiftyGPIO10POSIXError", "POSIXError"]
+- ["O10SwiftyGPIO10POSIXError", "RawValue"]
+- ["O10SwiftyGPIO10POSIXError", "Value"]
+- ["O10SwiftyGPIO10POSIXError", "_code"]
+- ["O10SwiftyGPIO10POSIXError", "_domain"]
+- ["O10SwiftyGPIO10POSIXError", "_userInfo"]
+- ["O10SwiftyGPIO10POSIXError", "deinit"]
+- !private ["O10SwiftyGPIO10POSIXError", "errno"]
+- ["O10SwiftyGPIO10POSIXError", "fromErrorNumber"]
+- ["O10SwiftyGPIO10POSIXError", "init"]
+- ["O10SwiftyGPIO10POSIXError", "rawValue"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "Value"]
+- ["Ps16RawRepresentable", "_code"]
+- ["Ps16RawRepresentable", "_domain"]
+- ["Ps16RawRepresentable", "_userInfo"]
+- !private ["Ps16RawRepresentable", "errno"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+depends-nominal:
+- "Ps5Error"
+- "O10SwiftyGPIO10POSIXError"
+- "Ps16RawRepresentable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/ubuntu/swift-3.0/usr/lib/swift/linux/armv7/Swift.swiftmodule"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/Visibility.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/LibcShims.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/RefCount.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/HeapObject.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/FoundationShims.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/DispatchShims.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/linux/armv7/glibc.modulemap"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/module.modulemap"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/linux/armv7/SwiftOnoneSupport.swiftmodule"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/linux/armv7/Glibc.swiftmodule"
+interface-hash: "e4ec29e652b533415d613d7ebf1ee833"

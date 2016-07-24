@@ -1,0 +1,8 @@
+version: "Swift version 3.0-dev (LLVM dd9a2a1e10, Clang f8606ef4b8, Swift eb27bb65a7)"
+options: "df4895fb4e3c4be5ab99185121d918e7"
+build_time: [522633892, 795688000]
+inputs:
+  "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/Packages/SwiftyGPIO-0.8.4/Sources/POSIXError.swift": [522569276, 0]
+  "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/Packages/SwiftyGPIO-0.8.4/Sources/SunXi.swift": [522569276, 0]
+  "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/Packages/SwiftyGPIO-0.8.4/Sources/Thread.swift": [522569276, 0]
+  "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/Packages/SwiftyGPIO-0.8.4/Sources/SwiftyGPIO.swift": [522569276, 0]

@@ -1,0 +1,47 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "test": ["<SwiftyGPIO.module>","<rgbled.module>","<rgbled.exe>"]
+  "main": ["<SwiftyGPIO.module>","<rgbled.module>","<rgbled.exe>"]
+default: "main"
+commands: 
+  "<SwiftyGPIO.module>":
+    tool: swift-compiler
+    executable: "/home/ubuntu/swift-3.0/usr/bin/swiftc"
+    module-name: "SwiftyGPIO"
+    module-output-path: "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.swiftmodule"
+    inputs: []
+    outputs: ["<SwiftyGPIO.module>","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/POSIXError.swift.o","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/SunXi.swift.o","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/Thread.swift.o","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/SwiftyGPIO.swift.o"]
+    import-paths: ["/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug"]
+    temps-path: "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build"
+    objects: ["/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/POSIXError.swift.o","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/SunXi.swift.o","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/Thread.swift.o","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/SwiftyGPIO.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-module-cache-path","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/ModuleCache"]
+    sources: ["/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/Packages/SwiftyGPIO-0.8.4/Sources/POSIXError.swift","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/Packages/SwiftyGPIO-0.8.4/Sources/SunXi.swift","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/Packages/SwiftyGPIO-0.8.4/Sources/Thread.swift","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/Packages/SwiftyGPIO-0.8.4/Sources/SwiftyGPIO.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<rgbled.module>":
+    tool: swift-compiler
+    executable: "/home/ubuntu/swift-3.0/usr/bin/swiftc"
+    module-name: "rgbled"
+    module-output-path: "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/rgbled.swiftmodule"
+    inputs: ["<SwiftyGPIO.module>"]
+    outputs: ["<rgbled.module>","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/rgbled.build/main.swift.o"]
+    import-paths: ["/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug"]
+    temps-path: "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/rgbled.build"
+    objects: ["/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/rgbled.build/main.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-module-cache-path","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/ModuleCache"]
+    sources: ["/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/Sources/main.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<rgbled.exe>":
+    tool: shell
+    description: "Linking .build/debug/rgbled"
+    inputs: ["/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/rgbled.build/main.swift.o","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/POSIXError.swift.o","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/SunXi.swift.o","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/Thread.swift.o","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/SwiftyGPIO.swift.o"]
+    outputs: ["<rgbled.exe>","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/rgbled"]
+    args: ["/home/ubuntu/swift-3.0/usr/bin/swiftc","-Xlinker","-rpath=$ORIGIN","-g","-L/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug","-o","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/rgbled","-emit-executable","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/rgbled.build/main.swift.o","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/POSIXError.swift.o","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/SunXi.swift.o","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/Thread.swift.o","/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/SwiftyGPIO.swift.o"]
+

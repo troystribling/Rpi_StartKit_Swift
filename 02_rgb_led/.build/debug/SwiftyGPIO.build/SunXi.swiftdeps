@@ -1,0 +1,289 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SunXiGPIO"
+- "=="
+provides-nominal:
+- "V10SwiftyGPIO9SunXiGPIO"
+- "OV10SwiftyGPIO9SunXiGPIO6Letter"
+provides-member:
+- ["V10SwiftyGPIO9SunXiGPIO", ""]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", ""]
+- ["C10SwiftyGPIO4GPIO", ""]
+- ["V10SwiftyGPIO9SunXiGPIO", "Letter"]
+- ["C10SwiftyGPIO4GPIO", "init"]
+depends-top-level:
+- "UInt"
+- !private "+"
+- "=="
+- "IntegerLiteralType"
+- "String"
+- !private "*"
+- !private "~="
+- "GPIO"
+- !private "&&"
+- "FloatLiteralType"
+- "SunXiGPIO"
+- "CustomStringConvertible"
+- !private "UnicodeScalarType"
+- "Equatable"
+- "Int"
+- "Bool"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "gpioPin"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "letter"]
+- !private ["Ps23CustomStringConvertible", "pin"]
+- !private ["Ps23CustomStringConvertible", "pinName"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Int"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "description"]
+- !private ["Ps9Equatable", "gpioPin"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "letter"]
+- !private ["Ps9Equatable", "pin"]
+- !private ["Ps9Equatable", "pinName"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- ["C10SwiftyGPIO4GPIO", "SunXiGPIO"]
+- ["C10SwiftyGPIO4GPIO", "init"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "Stride"]
+- !private ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Si", "init"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "A"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "B"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "C"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "D"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "E"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "F"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "G"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "H"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "I"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "J"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "K"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "L"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "M"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "N"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "O"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "P"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "Q"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "R"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "RawValue"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "S"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "T"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "U"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "V"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "W"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "X"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "Y"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "Z"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "deinit"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "hashValue"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "init"]
+- ["OV10SwiftyGPIO9SunXiGPIO6Letter", "rawValue"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps12OutputStream", "init"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- ["V10SwiftyGPIO9SunXiGPIO", "Int"]
+- ["V10SwiftyGPIO9SunXiGPIO", "Letter"]
+- ["V10SwiftyGPIO9SunXiGPIO", "String"]
+- ["V10SwiftyGPIO9SunXiGPIO", "UInt"]
+- ["V10SwiftyGPIO9SunXiGPIO", "deinit"]
+- ["V10SwiftyGPIO9SunXiGPIO", "description"]
+- ["V10SwiftyGPIO9SunXiGPIO", "gpioPin"]
+- ["V10SwiftyGPIO9SunXiGPIO", "init"]
+- ["V10SwiftyGPIO9SunXiGPIO", "letter"]
+- ["V10SwiftyGPIO9SunXiGPIO", "pin"]
+- ["V10SwiftyGPIO9SunXiGPIO", "pinName"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Vs11ClosedRange"
+- !private "Ps10Comparable"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "C10SwiftyGPIO4GPIO"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "OV10SwiftyGPIO9SunXiGPIO6Letter"
+- !private "Ps10MirrorPath"
+- !private "Ps12OutputStream"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- "V10SwiftyGPIO9SunXiGPIO"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/ubuntu/swift-3.0/usr/lib/swift/linux/armv7/Swift.swiftmodule"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/Visibility.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/LibcShims.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/RefCount.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/HeapObject.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/FoundationShims.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/DispatchShims.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/linux/armv7/glibc.modulemap"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/shims/module.modulemap"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/linux/armv7/SwiftOnoneSupport.swiftmodule"
+- "/home/ubuntu/swift-3.0/usr/lib/swift/linux/armv7/Glibc.swiftmodule"
+interface-hash: "aa95345dd69c0eddef8a6daab7171f73"

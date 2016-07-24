@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/master.swiftdeps"
+  },
+  "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/Packages/SwiftyGPIO-0.8.4/Sources/POSIXError.swift": {
+    "dependencies": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/POSIXError.d",
+    "object": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/POSIXError.swift.o",
+    "swiftmodule": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/POSIXError~partial.swiftmodule",
+    "swift-dependencies": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/POSIXError.swiftdeps"
+  },
+  "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/Packages/SwiftyGPIO-0.8.4/Sources/SunXi.swift": {
+    "dependencies": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/SunXi.d",
+    "object": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/SunXi.swift.o",
+    "swiftmodule": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/SunXi~partial.swiftmodule",
+    "swift-dependencies": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/SunXi.swiftdeps"
+  },
+  "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/Packages/SwiftyGPIO-0.8.4/Sources/Thread.swift": {
+    "dependencies": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/Thread.d",
+    "object": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/Thread.swift.o",
+    "swiftmodule": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/Thread~partial.swiftmodule",
+    "swift-dependencies": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/Thread.swiftdeps"
+  },
+  "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/Packages/SwiftyGPIO-0.8.4/Sources/SwiftyGPIO.swift": {
+    "dependencies": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/SwiftyGPIO.d",
+    "object": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/SwiftyGPIO.swift.o",
+    "swiftmodule": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/SwiftyGPIO~partial.swiftmodule",
+    "swift-dependencies": "/home/ubuntu/Develop/Swift/Rpi_StartKit_Swift/02_rgb_led/.build/debug/SwiftyGPIO.build/SwiftyGPIO.swiftdeps"
+  }
+}
